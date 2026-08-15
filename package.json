@@ -1,0 +1,22 @@
+{
+  "name": "stitch-designer",
+  "private": true,
+  "type": "module",
+  "main": "./plugin.js",
+  "description": "Google Stitch AI 设计预览插件：生成 UI → 面板实时预览 → 对话迭代 → 1:1 导出 HTML",
+  "exports": {
+    ".": "./plugin.js",
+    "./client": {
+      "default": "./client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  }
+}
