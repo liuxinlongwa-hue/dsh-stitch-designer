@@ -26,6 +26,8 @@
 | 📦 1:1 导出 | 确定版后导出完整 HTML 成品（Tailwind，可运行 / 部署 / Electron·Tauri 打包 EXE） |
 | 🔗 网页同步 | 同账号打开 stitch.withgoogle.com 可实时查看 / 手动微调（可选） |
 
+> **v1.1.0 优化**（2026-08-19）：状态持久化（重启不丢项目/屏幕）· 跨项目兜底（不再串显示）· 生成即取（不等索引，减少"生成了看不到"）· get_screen 按 id 兜底 · 高清缓存双份（面板 + ~/.stitch/screens/）
+
 ## 📸 演示
 
 ![预览示例](docs/preview-demo.png)

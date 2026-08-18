@@ -1,10 +1,10 @@
 {
   "name": "stitch-designer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "main": "./plugin.js",
-  "description": "DeepSeek Harness (DSH) plugin: Google Stitch AI design preview — text-to-UI generation for APP/Web/desktop, in-session preview panel, iterative editing, 1:1 HTML export. DSH 插件：AI 界面设计预览。",
+  "description": "DeepSeek Harness (DSH) plugin: Google Stitch AI design preview — text-to-UI generation for APP/Web/desktop, in-session preview panel, iterative editing, 1:1 HTML export. DSH 插件：AI 界面设计预览。 优化版：状态持久化 / 跨项目兜底 / 生成即取(不等索引) / 高清缓存。",
   "keywords": [
     "deepseek-harness",
     "deepseek",
